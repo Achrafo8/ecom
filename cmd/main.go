@@ -50,3 +50,8 @@ func hello() {
 
 	fmt.Println("Hello there")
 }
+
+func add(a, b int) int {
+
+	return a + b
+}
