@@ -2,6 +2,7 @@ package main
 
 import (
 	"database/sql"
+	"fmt"
 	"log"
 
 	"github.com/Achrafo8/ecom/cmd/api"
@@ -43,4 +44,9 @@ func iniStorage(db *sql.DB) {
 		log.Fatal(err)
 	}
 	log.Println("DB: successfully connected!")
+}
+
+func hello() {
+
+	fmt.Println("Hello there")
 }
